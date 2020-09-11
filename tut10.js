@@ -1,18 +1,23 @@
-// Genrating loop
+// gentating loop
 
-for (let i = 5; i < 10; i++) {
-    if (i === 1) {
-        console.log(i*1);
-        console.log(i*2);
-        console.log(i*3);
-        console.log(i*4);
-        console.log(i*5);
-        console.log(i*6);
-        console.log(i*7);
-        console.log(i*8);
-        console.log(i*9);
-        console.log(i*10);
-        break
-    }
-    console.log(i)
-}
+// for (let i = 0; i < 10; i++) {
+//     if (i===3){
+//         console.log("three");
+//         continue;
+//     };
+    // console.log(i);
+// };
+
+//while loop
+// let i=0;
+// while (i<10) {
+//     console.log(i);
+//     i++;
+// };
+
+// doing loop
+let i=1
+do {
+    console.log(i*7)
+    i++;
+} while (i<=10);
